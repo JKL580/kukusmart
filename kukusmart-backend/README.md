@@ -26,11 +26,6 @@ cp .env.example .env
 
 3. Configure environment variables in `.env`:
 
-```env
-PORT=5000
-MONGODB_URI=mongodb+srv://kukusmart:lagat@kukusmart.xqacyhf.mongodb.net/kukusmart?retryWrites=true&w=majority&appName=kukusmart
-NODE_ENV=development
-
 # Optional: M-Pesa Integration
 MPESA_CONSUMER_KEY=your_consumer_key
 MPESA_CONSUMER_SECRET=your_consumer_secret
@@ -344,10 +339,6 @@ kill -9
 3. Commit changes (`git commit -m 'Add AmazingFeature'`)
 4. Push to branch (`git push origin feature/AmazingFeature`)
 5. Open Pull Request
-
-## 📄 License
-
-MIT License
 
 ## 👥 Authors
 
