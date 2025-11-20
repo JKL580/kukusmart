@@ -1,3 +1,4 @@
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -19,6 +20,9 @@ export default {
           800: '#78350f',
           900: '#451a03',
         },
+      },
+      animation: {
+        'spin-slow': 'spin 3s linear infinite',
       },
     },
   },

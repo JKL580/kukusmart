@@ -71,9 +71,21 @@ export const CartProvider = ({ children }) => {
     return cart.reduce((count, item) => count + item.quantity, 0);
   };
 
+  const value = {
+    cart,
+    isCartOpen,
+    setIsCartOpen,
+    addToCart,
+    removeFromCart,
+    updateQuantity,
+    clearCart,
+    getCartTotal,
+    getCartCount,
+  };
+
   return (
-    
+    <CartContext.Provider value={value}>
       {children}
-    
+    </CartContext.Provider>
   );
 };
