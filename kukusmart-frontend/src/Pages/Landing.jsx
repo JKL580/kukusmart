@@ -119,7 +119,7 @@ const Landing = () => {
             </div>
             <div>
               <div className="text-4xl md:text-5xl font-bold mb-2">50+</div>
-              <div className="text-amber-100 text-lg">Learning Resources</div>
+              <div className="text-amber-100 text-lg">Learning Resources</div> 
             </div>
           </div>
         </div>
@@ -134,29 +134,37 @@ const Landing = () => {
               <div className="flex items-start">
                 <div className="flex-shrink-0 w-8 h-8 bg-amber-600 rounded-full flex items-center justify-center text-white font-bold mr-4">✓</div>
                 <div>
-                  <h4 className="font-semibold text-gray-900 mb-1">Easy to Use</h4>
-                  <p className="text-gray-600">Simple, intuitive interface designed for farmers</p>
+                  <h4 className="font-semibold text-gray-900 mb-1"> Accurate, Trusted Information — No More Facebook Guesswork
+                    </h4>
+                  <p className="text-gray-600">
+                    Farmers often depend on random Facebook posts that give wrong advice - leading to sick birds, heavy losses, and confusion.
+                    At KukuSmart, every guide is research-based, written with input from vets and experienced poultry experts so you always know exactly what to do.
+
+                    </p>
                 </div>
               </div>
               <div className="flex items-start">
                 <div className="flex-shrink-0 w-8 h-8 bg-amber-600 rounded-full flex items-center justify-center text-white font-bold mr-4">✓</div>
                 <div>
-                  <h4 className="font-semibold text-gray-900 mb-1">Secure Payments</h4>
-                  <p className="text-gray-600">M-Pesa integration for safe transactions</p>
+                  <h4 className="font-semibold text-gray-900 mb-1">Secure, Transparent Buying and Selling
+                  </h4>
+                  <p className="text-gray-600">No more being conned, overcharged, or meeting unreliable buyers.
+                  Our marketplace connects you to real farmers and verified sellers across Kenya, with safe payments and clear pricing.
+                  </p>
                 </div>
               </div>
               <div className="flex items-start">
                 <div className="flex-shrink-0 w-8 h-8 bg-amber-600 rounded-full flex items-center justify-center text-white font-bold mr-4">✓</div>
                 <div>
-                  <h4 className="font-semibold text-gray-900 mb-1">Expert Knowledge</h4>
-                  <p className="text-gray-600">Access to veterinary and farming best practices</p>
+                  <h4 className="font-semibold text-gray-900 mb-1">Expert Support for Healthy, Profitable Flocks</h4>
+                  <p className="text-gray-600"> You gain access to up-to-date disease information, vaccination schedules, symptoms, prevention, photos of infections, and expert treatment options — curated with vets to help you reduce flock mortality. </p>
                 </div>
               </div>
               <div className="flex items-start">
                 <div className="flex-shrink-0 w-8 h-8 bg-amber-600 rounded-full flex items-center justify-center text-white font-bold mr-4">✓</div>
                 <div>
-                  <h4 className="font-semibold text-gray-900 mb-1">Local Focus</h4>
-                  <p className="text-gray-600">Built specifically for Kenyan poultry farmers</p>
+                  <h4 className="font-semibold text-gray-900 mb-1">Fair Prices for Farmers Everywhere</h4>
+                  <p className="text-gray-600">Whether you are selling chicks, eggs, or mature birds, KukuSmart ensures you get fair market prices without brokers taking advantage of you. Direct connection. No exploitation.</p>
                 </div>
               </div>
             </div>
