@@ -1,16 +1,16 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { CartProvider } from './context/CartContext'; // ADD THIS LINE
-import Landing from './pages/Landing';
-import Dashboard from './pages/Dashboard';
-import Marketplace from './pages/Marketplace';
-import ProductDetails from './pages/ProductDetails';
-import SellerForm from './pages/SellerForm';
-import DiseaseManagement from './pages/DiseaseManagement';
-import DiseaseDetails from './pages/DiseaseDetails';
-import LearningCentre from './pages/LearningCentre';
-import ArticleDetails from './pages/ArticleDetails';
-import Checkout from './pages/Checkout';
+import Landing from './Pages/Landing';
+import Dashboard from './Pages/Dashboard';
+import Marketplace from './Pages/Marketplace';
+import ProductDetails from './Pages/ProductDetails';
+import SellerForm from './Pages/SellerForm';
+import DiseaseManagement from './Pages/DiseaseManagement';
+import DiseaseDetails from './Pages/DiseaseDetails';
+import LearningCentre from './Pages/LearningCentre';
+import ArticleDetails from './Pages/ArticleDetails';
+import Checkout from './Pages/Checkout';
 
 function App() {
   return (
